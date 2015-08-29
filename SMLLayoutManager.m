@@ -382,7 +382,7 @@ forStartingGlyphAtIndex:(NSUInteger)glyphIndex
         
         attrString = [[[NSAttributedString alloc] initWithString:spaceCharacter attributes:defAttributes] autorelease];
         textLine = CTLineCreateWithAttributedString((CFAttributedStringRef)attrString);
-        [lineRefs addObject:textLine]; // kSpaceLine
+        [lineRefs addObject:(__bridge id)textLine]; // kSpaceLine
         CFRelease(textLine);
         
         attrString = [[[NSAttributedString alloc] initWithString:newLineCharacter attributes:defAttributes] autorelease];

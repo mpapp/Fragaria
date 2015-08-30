@@ -377,8 +377,9 @@ forStartingGlyphAtIndex:(NSUInteger)glyphIndex
         lineRefs = [[NSMutableArray arrayWithCapacity:kNewLineLine+1] retain];
         
         NSAttributedString *attrString = [[[NSAttributedString alloc] initWithString:tabCharacter attributes:defAttributes] autorelease];
-        CTLineRef textLine = CFMakeCollectable(CTLineCreateWithAttributedString((CFAttributedStringRef)attrString));
+        CTLineRef textLine = CTLineCreateWithAttributedString((CFAttributedStringRef)attrString);
         [lineRefs addObject:(id)textLine]; // kTabLine
+        CFRelease(textLine);
         
         attrString = [[[NSAttributedString alloc] initWithString:spaceCharacter attributes:defAttributes] autorelease];
         textLine = CTLineCreateWithAttributedString((CFAttributedStringRef)attrString);

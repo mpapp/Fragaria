@@ -156,7 +156,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         }
         
         NSLayoutManager *layoutManager = [textView layoutManager];
-        NSRect visibleRect = [[scrollView contentView] documentVisibleRect];
+        NSRect visibleRect = CGRectOffset([[scrollView contentView] documentVisibleRect], 0, 0 - (([scrollView isFindBarVisible]) ? scrollView.findBarView.frame.size.height : 0));
         NSRange visibleRange = [layoutManager glyphRangeForBoundingRect:visibleRect inTextContainer:[textView textContainer]];
         NSInteger location = visibleRange.location;
         NSString *textString = [textView string];

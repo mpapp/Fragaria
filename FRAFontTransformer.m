@@ -30,6 +30,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 - (id)transformedValue:(id)value
 {
+    if (!value)
+        return nil;
+    
 	NSFont *font = [NSUnarchiver unarchiveObjectWithData:value];
 	
 	return [NSString stringWithFormat:@"%@ - %.0fpt", [font fontName], [font pointSize]];

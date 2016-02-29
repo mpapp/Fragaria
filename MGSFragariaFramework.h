@@ -6,6 +6,21 @@
  *  Copyright 2010 mugginsoft.com. All rights reserved.
  *
  */
+
+#import "MGSFragariaTextEditingPrefsViewController.h"
+#import "MGSFragariaFontsAndColoursPrefsViewController.h"
+#import "MGSFragaria.h"
+#import "MGSSyntaxController.h"
+#import "MGSFragariaPreferences.h"
+#import "MGSTextMenuController.h"
+#import "MGSExtraInterfaceController.h"
+#import "MGSBreakpointDelegate.h"
+#import "MGSFragariaPrefsViewController.h"
+
+#import "SMLSyntaxColouringDelegate.h"
+#import "SMLAutoCompleteDelegate.h"
+#import "SMLSyntaxError.h"
+
 #import "SMLStandardHeader.h"
 #import "SMLSyntaxColouring.h"
 #import "SMLTextView.h"
@@ -13,7 +28,6 @@
 #import "SMLLineNumbers.h"
 #import "SMLGutterTextView.h"
 #import "SMLTextPerformer.h"
-#import "MGSExtraInterfaceController.h"
 #import "SMLBasicPerformer.h"
 #import "MGSTextMenuController.h"
 #import "ICUPattern.h"

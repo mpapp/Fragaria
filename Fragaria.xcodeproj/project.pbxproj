@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F06C3101C84A98200D9B202 /* SMLLineNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = AB41C1261192049F004F0CB5 /* SMLLineNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFCC8401902C22700A595F2 /* SMLSyntaxColouring.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B664118B766300903D1D /* SMLSyntaxColouring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FCE129B1BF500A3FF76 /* SMLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B666118B768000903D1D /* SMLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FE0129B1CE300A3FF76 /* MGSSyntaxController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3971C8118C1F8A00AEF388 /* MGSSyntaxController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -588,6 +589,7 @@
 				AB257FE0129B1CE300A3FF76 /* MGSSyntaxController.h in Headers */,
 				AB257FE2129B1CE300A3FF76 /* MGSFragariaPreferences.h in Headers */,
 				AB257FE4129B1CE300A3FF76 /* MGSTextMenuController.h in Headers */,
+				5F06C3101C84A98200D9B202 /* SMLLineNumbers.h in Headers */,
 				AB257FE5129B1CE300A3FF76 /* MGSExtraInterfaceController.h in Headers */,
 				AB69B754118B830700903D1D /* MGSFragaria.h in Headers */,
 				5FFCC8401902C22700A595F2 /* SMLSyntaxColouring.h in Headers */,
@@ -933,6 +935,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -945,6 +948,7 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULEMAP_FILE = MGSFragaria.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1038,6 +1042,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1048,6 +1053,7 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULEMAP_FILE = MGSFragaria.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1145,6 +1151,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1157,6 +1164,7 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULEMAP_FILE = MGSFragaria.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1254,6 +1262,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1266,6 +1275,7 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULEMAP_FILE = MGSFragaria.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1330,6 +1340,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1342,6 +1353,7 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULEMAP_FILE = MGSFragaria.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1362,6 +1374,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1372,6 +1385,7 @@
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MODULEMAP_FILE = MGSFragaria.modulemap;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-framework",

@@ -1,0 +1,6 @@
+framework module MGSFragaria {
+  umbrella header "MGSFragariaFramework.h"
+  
+  export *
+  module * { export * }
+}

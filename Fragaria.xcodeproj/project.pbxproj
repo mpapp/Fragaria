@@ -11,6 +11,14 @@
 		5F5A9ABB1C851AE90029B66C /* MGSFragariaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD0FD7F119326FE00E6AFE6 /* MGSFragariaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F5A9ABC1C851D9F0029B66C /* SMLStandardHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B662118B763A00903D1D /* SMLStandardHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F5A9ABD1C85241F0029B66C /* SMLLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B678118B76E700903D1D /* SMLLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9ABE1C8525AB0029B66C /* SMLGutterTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB41C12E11920514004F0CB5 /* SMLGutterTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9ABF1C8525B60029B66C /* SMLTextPerformer.h in Headers */ = {isa = PBXBuildFile; fileRef = AB472BEA1299AF5100202CB5 /* SMLTextPerformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC01C8525C10029B66C /* SMLBasicPerformer.h in Headers */ = {isa = PBXBuildFile; fileRef = AB472B9F12997B3300202CB5 /* SMLBasicPerformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC11C8525CD0029B66C /* ICUPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B66C118B76AE00903D1D /* ICUPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC21C8525D40029B66C /* ICUMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B66A118B76AE00903D1D /* ICUMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC31C8525DC0029B66C /* NSStringICUAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B66E118B76AE00903D1D /* NSStringICUAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC41C8525E20029B66C /* MGSPreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B809118B8D0400903D1D /* MGSPreferencesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC51C8525FA0029B66C /* MGSGlyphGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6C86C1160FA2B500488AF2 /* MGSGlyphGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFCC8401902C22700A595F2 /* SMLSyntaxColouring.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B664118B766300903D1D /* SMLSyntaxColouring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FCE129B1BF500A3FF76 /* SMLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B666118B768000903D1D /* SMLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FE0129B1CE300A3FF76 /* MGSSyntaxController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3971C8118C1F8A00AEF388 /* MGSSyntaxController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -80,7 +88,7 @@
 		ABE25D0A1635CA7C00F23718 /* MGSFragariaPrefsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE25D081635CA7C00F23718 /* MGSFragariaPrefsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABE25D0B1635CA7C00F23718 /* MGSFragariaPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE25D091635CA7C00F23718 /* MGSFragariaPrefsViewController.m */; };
 		ABF28AF014C075D400ECAD48 /* NSScanner+Fragaria.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF28AEE14C075D400ECAD48 /* NSScanner+Fragaria.m */; };
-		ABF28AF114C075D400ECAD48 /* NSScanner+Fragaria.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF28AEF14C075D400ECAD48 /* NSScanner+Fragaria.h */; };
+		ABF28AF114C075D400ECAD48 /* NSScanner+Fragaria.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF28AEF14C075D400ECAD48 /* NSScanner+Fragaria.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E373BF131718A64700D71602 /* SMLAutoCompleteDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E373BF121718A64700D71602 /* SMLAutoCompleteDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E38654AD1717652000A345B9 /* ErrorPopoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38654AC1717652000A345B9 /* ErrorPopoverView.xib */; };
 		E3AA871B16E1817800585940 /* editor-breakpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AA871A16E1817800585940 /* editor-breakpoint.png */; };
@@ -88,7 +96,7 @@
 		E3BBA50C16E52FE600D89923 /* editor-breakpoint-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBA50916E52FE600D89923 /* editor-breakpoint-1.png */; };
 		E3BBA50D16E52FE600D89923 /* editor-breakpoint-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBA50A16E52FE600D89923 /* editor-breakpoint-2.png */; };
 		E3C185001717597200801FE5 /* editor-warning.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C184FF1717597200801FE5 /* editor-warning.png */; };
-		E3C1850317175ED900801FE5 /* SMLErrorPopOver.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C1850117175ED900801FE5 /* SMLErrorPopOver.h */; };
+		E3C1850317175ED900801FE5 /* SMLErrorPopOver.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C1850117175ED900801FE5 /* SMLErrorPopOver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3C1850417175ED900801FE5 /* SMLErrorPopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C1850217175ED900801FE5 /* SMLErrorPopOver.m */; };
 		E3CF4B7916E6927300C27B5C /* MGSBreakpointDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CF4B7816E6927300C27B5C /* MGSBreakpointDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3D4B2771714D89700BB2CC6 /* SMLSyntaxError.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D4B2751714D89700BB2CC6 /* SMLSyntaxError.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -597,18 +605,26 @@
 				AB69B754118B830700903D1D /* MGSFragaria.h in Headers */,
 				5FFCC8401902C22700A595F2 /* SMLSyntaxColouring.h in Headers */,
 				AB257FCE129B1BF500A3FF76 /* SMLTextView.h in Headers */,
+				5F5A9AC41C8525E20029B66C /* MGSPreferencesController.h in Headers */,
+				5F5A9AC01C8525C10029B66C /* SMLBasicPerformer.h in Headers */,
 				E3D4B2771714D89700BB2CC6 /* SMLSyntaxError.h in Headers */,
 				E3CF4B7916E6927300C27B5C /* MGSBreakpointDelegate.h in Headers */,
 				ABC578E91603D6000040B3FB /* MGSFragariaFontsAndColoursPrefsViewController.h in Headers */,
+				5F5A9AC51C8525FA0029B66C /* MGSGlyphGenerator.h in Headers */,
+				5F5A9AC31C8525DC0029B66C /* NSStringICUAdditions.h in Headers */,
 				5F5A9ABB1C851AE90029B66C /* MGSFragariaFramework.h in Headers */,
 				E373BF131718A64700D71602 /* SMLAutoCompleteDelegate.h in Headers */,
+				5F5A9ABE1C8525AB0029B66C /* SMLGutterTextView.h in Headers */,
 				AB8387AA171B4505004408F4 /* SMLSyntaxColouringDelegate.h in Headers */,
 				5F5A9ABC1C851D9F0029B66C /* SMLStandardHeader.h in Headers */,
 				AB8387C5171D6115004408F4 /* SMLSyntaxDefinition.h in Headers */,
 				5F5A9ABD1C85241F0029B66C /* SMLLayoutManager.h in Headers */,
+				5F5A9ABF1C8525B60029B66C /* SMLTextPerformer.h in Headers */,
 				ABC578ED1603D7ED0040B3FB /* MGSFragariaTextEditingPrefsViewController.h in Headers */,
+				5F5A9AC11C8525CD0029B66C /* ICUPattern.h in Headers */,
 				ABF28AF114C075D400ECAD48 /* NSScanner+Fragaria.h in Headers */,
 				E3C1850317175ED900801FE5 /* SMLErrorPopOver.h in Headers */,
+				5F5A9AC21C8525D40029B66C /* ICUMatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

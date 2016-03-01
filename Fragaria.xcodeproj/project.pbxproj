@@ -19,6 +19,7 @@
 		5F5A9AC31C8525DC0029B66C /* NSStringICUAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B66E118B76AE00903D1D /* NSStringICUAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F5A9AC41C8525E20029B66C /* MGSPreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B809118B8D0400903D1D /* MGSPreferencesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F5A9AC51C8525FA0029B66C /* MGSGlyphGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6C86C1160FA2B500488AF2 /* MGSGlyphGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9AC61C8528550029B66C /* DBPrefsWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC1D5D4160B0801008769EB /* DBPrefsWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFCC8401902C22700A595F2 /* SMLSyntaxColouring.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B664118B766300903D1D /* SMLSyntaxColouring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FCE129B1BF500A3FF76 /* SMLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B666118B768000903D1D /* SMLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FE0129B1CE300A3FF76 /* MGSSyntaxController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3971C8118C1F8A00AEF388 /* MGSSyntaxController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -599,6 +600,7 @@
 				ABE25D0A1635CA7C00F23718 /* MGSFragariaPrefsViewController.h in Headers */,
 				AB257FE0129B1CE300A3FF76 /* MGSSyntaxController.h in Headers */,
 				AB257FE2129B1CE300A3FF76 /* MGSFragariaPreferences.h in Headers */,
+				5F5A9AC61C8528550029B66C /* DBPrefsWindowController.h in Headers */,
 				AB257FE4129B1CE300A3FF76 /* MGSTextMenuController.h in Headers */,
 				5F06C3101C84A98200D9B202 /* SMLLineNumbers.h in Headers */,
 				AB257FE5129B1CE300A3FF76 /* MGSExtraInterfaceController.h in Headers */,

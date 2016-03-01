@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F06C3101C84A98200D9B202 /* SMLLineNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = AB41C1261192049F004F0CB5 /* SMLLineNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5A9ABB1C851AE90029B66C /* MGSFragariaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD0FD7F119326FE00E6AFE6 /* MGSFragariaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFCC8401902C22700A595F2 /* SMLSyntaxColouring.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B664118B766300903D1D /* SMLSyntaxColouring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FCE129B1BF500A3FF76 /* SMLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB69B666118B768000903D1D /* SMLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB257FE0129B1CE300A3FF76 /* MGSSyntaxController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3971C8118C1F8A00AEF388 /* MGSSyntaxController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -597,6 +598,7 @@
 				E3D4B2771714D89700BB2CC6 /* SMLSyntaxError.h in Headers */,
 				E3CF4B7916E6927300C27B5C /* MGSBreakpointDelegate.h in Headers */,
 				ABC578E91603D6000040B3FB /* MGSFragariaFontsAndColoursPrefsViewController.h in Headers */,
+				5F5A9ABB1C851AE90029B66C /* MGSFragariaFramework.h in Headers */,
 				E373BF131718A64700D71602 /* SMLAutoCompleteDelegate.h in Headers */,
 				AB8387AA171B4505004408F4 /* SMLSyntaxColouringDelegate.h in Headers */,
 				AB8387C5171D6115004408F4 /* SMLSyntaxDefinition.h in Headers */,

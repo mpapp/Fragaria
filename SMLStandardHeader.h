@@ -87,29 +87,15 @@ typedef enum {
 
 #define SMULTRON_ERROR_DOMAIN @"org.smultron.Smultron.ErrorDomain"
 
-#import <Cocoa/Cocoa.h>
-#import <Carbon/Carbon.h>
+@import Cocoa;
+@import Carbon;
+@import SystemConfiguration;
+@import ApplicationServices;
+@import WebKit;
+@import QuartzCore;
+@import QuickLook;
 
-#import <SystemConfiguration/SCNetwork.h>
-
-#import <ApplicationServices/ApplicationServices.h>
-
-#import <WebKit/WebKit.h>
-
-#import <QuartzCore/QuartzCore.h>
-
-#import <QuickLook/QuickLook.h>
-
-
-
-#import <unistd.h>
-
-#import <unistd.h>
-#import <sys/param.h>
-#import <sys/mount.h>
-#import <sys/xattr.h>
-
-
+@import Darwin;
 
 #define OK_BUTTON NSLocalizedString(@"OK", @"OK-button")
 #define CANCEL_BUTTON NSLocalizedString(@"Cancel", @"Cancel-button")

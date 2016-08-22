@@ -750,7 +750,8 @@ NSString *SMLSyntaxDefinitionIncludeInKeywordEndCharacterSet = @"includeInKeywor
 		return;
 	}
 	NSRect visibleRect = [[[textView enclosingScrollView] contentView] documentVisibleRect];
-	NSRange visibleRange = [[textView layoutManager] glyphRangeForBoundingRect:visibleRect inTextContainer:[textView textContainer]];
+	NSRange glyphRange = [[textView layoutManager] glyphRangeForBoundingRect:visibleRect inTextContainer:[textView textContainer]];
+	NSRange visibleRange = [[textView layoutManager] characterRangeForGlyphRange:glyphRange actualGlyphRange:NULL];
 	NSInteger beginningOfFirstVisibleLine = [[textView string] lineRangeForRange:NSMakeRange(visibleRange.location, 0)].location;
 	NSInteger endOfLastVisibleLine = NSMaxRange([[self completeString] lineRangeForRange:NSMakeRange(NSMaxRange(visibleRange), 0)]);
 	

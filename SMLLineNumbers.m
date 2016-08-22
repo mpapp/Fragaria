@@ -157,7 +157,8 @@ Unless required by applicable law or agreed to in writing, software distributed 
         
         NSLayoutManager *layoutManager = [textView layoutManager];
         NSRect visibleRect = CGRectOffset([[scrollView contentView] documentVisibleRect], 0, 0 - (([scrollView isFindBarVisible]) ? scrollView.findBarView.frame.size.height : 0));
-        NSRange visibleRange = [layoutManager glyphRangeForBoundingRect:visibleRect inTextContainer:[textView textContainer]];
+		NSRange glyphRange = [layoutManager glyphRangeForBoundingRect:visibleRect inTextContainer:[textView textContainer]];
+		NSRange visibleRange = [[textView layoutManager] characterRangeForGlyphRange:glyphRange actualGlyphRange:NULL];
         NSInteger location = visibleRange.location;
         NSString *textString = [textView string];
         if (location == NSNotFound) location = textString.length;
@@ -172,7 +173,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         NSInteger numberOfGlyphsInTextString = [layoutManager numberOfGlyphs];
         BOOL oneMoreTime = NO;
         if (numberOfGlyphsInTextString != 0) {
-            unichar lastGlyph = [textString characterAtIndex:numberOfGlyphsInTextString - 1];
+            NSGlyph lastGlyph = [layoutManager glyphAtIndex:numberOfGlyphsInTextString - 1];
             if (lastGlyph == '\n' || lastGlyph == '\r') {
                 oneMoreTime = YES; // Continue one more time through the loop if the last glyph isn't newline
             }
